@@ -1,8 +1,15 @@
+/*
+ * @Author: RongWei
+ * @Date: 2021-12-02 14:58:34
+ * @LastEditors: RongWei
+ * @LastEditTime: 2021-12-02 15:05:26
+ * @Description: file content
+ */
 import React, { Component } from 'react';
 // eslint-disable-next-line
-import ScrollBar from 'react-perfect-scrollbar';
+import ScrollBar from '@maycur/react-perfect-scrollbar';
 // eslint-disable-next-line
-import 'react-perfect-scrollbar/styles.scss';
+import '@maycur/react-perfect-scrollbar/styles.scss';
 
 import './example.scss';
 

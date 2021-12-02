@@ -1,6 +1,6 @@
 {
-  "name": "react-perfect-scrollbar",
-  "version": "1.5.8",
+  "name": "@maycur/react-perfect-scrollbar",
+  "version": "1.0.0",
   "description": "A react wrapper for perfect-scrollbar",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -38,7 +38,7 @@
     "react-dom": ">=16.3.3"
   },
   "dependencies": {
-    "perfect-scrollbar": "^1.5.0",
+    "@maycur/perfect-scrollbar": "1.0.1",
     "prop-types": "^15.6.1"
   },
   "devDependencies": {

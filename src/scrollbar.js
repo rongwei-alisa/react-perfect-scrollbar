@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
-import PerfectScrollbar from 'perfect-scrollbar';
+import PerfectScrollbar from '@maycur/perfect-scrollbar';
 
 const handlerNameByEvent = {
   'ps-scroll-y': 'onScrollY',
@@ -26,6 +26,7 @@ export default class ScrollBar extends Component {
 
   componentDidMount() {
     if (this.props.option) {
+      // eslint-disable-next-line no-console
       console.warn('react-perfect-scrollbar: the "option" prop has been deprecated in favor of "options"');
     }
 
